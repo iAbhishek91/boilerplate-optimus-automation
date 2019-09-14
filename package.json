@@ -1,0 +1,37 @@
+{
+  "name": "boilerplate-optimus-automation",
+  "version": "1.0.0",
+  "description": "Demostration of utilizing optimus-automation",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "lint": "eslint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iAbhishek91/boilerplate-optimus-automation.git"
+  },
+  "keywords": [
+    "optimus-automation"
+  ],
+  "author": "Abhishek Das <i.abhishek.dass@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iAbhishek91/boilerplate-optimus-automation/issues"
+  },
+  "homepage": "https://github.com/iAbhishek91/boilerplate-optimus-automation#readme",
+  "dependencies": {
+    "cucumber": "^5.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/plugin-transform-runtime": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/runtime": "^7.6.0",
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3"
+  }
+}
