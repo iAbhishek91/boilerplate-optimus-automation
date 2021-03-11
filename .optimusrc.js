@@ -45,5 +45,9 @@ module.exports = {
     firefoxBaseURL: 'https://github.com/mozilla/geckodriver/releases/download',
     firefoxVersion: '0.23.0',
     edgeVersion: '17134',
+  },
+  loggerOptions: {
+    label: 'boilerplate-optimus',
+    logDir: 'logs',
   }
 };
